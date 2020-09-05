@@ -1,0 +1,65 @@
+.what-we-do-container {
+   height: 100%;
+   width: 95%;
+   position: relative;
+   left: 5%;
+}
+
+.what-we-do-intro-larger {
+   position: absolute;
+   top: 9%;
+   left: 3%;
+   width: 88%;
+   color: rgb(61, 61, 61);
+   font-size: 2.2vw;
+}
+
+.what-we-do-container span {
+   color: rgb(0, 0, 0);
+   /* font-style: italic; */
+   font-weight: bold;
+   font-size: 2.75vw;
+   /* text-decoration: underline; */
+}
+
+.what-we-do-intro-smaller {
+   font-size: 1.6vw;
+   width: 89%;
+   position: absolute;
+   color: rgb(61, 61, 61);
+   top: 21%;
+   left: 3%;
+}
+
+.what-we-do-intro-smaller span {
+   font-size: 2.1vw
+}
+
+.three-step-model-container {
+   position: absolute;
+   top: 30%;
+   left: 3%;
+   border-radius: .5vw;
+   height: 50%;
+   width: 95%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.model-item {
+   border: 2px solid green;
+   height: 100%;
+   width: 100%;
+}
+
+.arrow {
+   flex: .5;
+   margin-left: 2%;
+   margin-right: 2%;
+   font-size: 4vw;
+   font-weight: bold;
+
+   color: rgb(61, 126, 101);
+   /* font-style: italic; */
+}

@@ -8,6 +8,8 @@ const Splash = props => {
       <div className='splash-container' onMouseEnter={ensureShaderOff}>
          <div className='splash-left-section'>
             <span>Pebble</span>
+
+            <div className="tagline">Hospitality business recovery to secure a positive future.</div>
          </div>
 
          <div className='splash-right-section'>

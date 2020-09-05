@@ -1,0 +1,57 @@
+.model-step-card-container {
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+
+.model-step-card-front {
+   position: absolute;
+   height: 20%;
+   width: 100%;
+   background: green;
+   animation: fade-in .5s;
+}
+
+.stepName {
+   font-size: 3vw;
+   background: rgb(54, 54, 54);
+   border-radius: .5vw;
+   padding: 5%;
+   width: fit-content;
+   color: rgb(206, 206, 206);
+   position: relative;
+   top: 50%;
+   animation: fade-in 1s;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.model-step-card-back {
+   height: 100%;
+   width: 105%;
+   top: 50%;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   animation: fade-in .5s;
+}
+
+.step-content-container {
+   height: fit-content;
+   width: 100%;
+   text-align: center;
+   font-size: 1.5vw;
+   /* background: red; */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.step-content span {
+   font-size: 1.75vw !important;
+   font-style: normal !important;
+   color: rgb(56, 168, 172) !important;
+   font-weight: bold;
+   text-decoration: none !important;
+}

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 .splash-container {
    width: 95%;
    height: 100%;
@@ -9,14 +11,29 @@
    font-size: 8vw;
 }
 
+.tagline {
+   font-size: 1.75vw;
+   position: absolute;
+   bottom: 40%;
+   /* font-style: italic; */
+   color: rgb(0, 0, 0);
+   right: 2%;
+   animation: fade-in 1s;
+   animation-delay: 1.75s;
+   opacity: 0;
+   animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+   font-family: "Montserrat", sans-serif;
+}
+
 .splash-left-section {
    background: rgb(255, 255, 255);
-   color: rgb(43, 43, 43);
+   color: rgb(66, 66, 66);
    height: 100%;
    position: relative;
    width: 100%;
-   flex: 1.5;
-   z-index: 99;
+   flex: 1.25;
+   z-index: 10;
 }
 
 .splash-left-section span {
@@ -37,15 +54,18 @@
    position: relative;
    width: 100%;
    flex: 1;
-   z-index: 98;
-   animation: background-color-entrance .75s;
-   animation-fill-mode: forwards;
+   background: rgb(43, 43, 43);
+   background: rgb(255, 189, 89);
+
+   z-index: 100;
 }
 
 .splash-right-section span {
    position: absolute;
    bottom: 32%;
    left: -100%;
+   z-index: 100;
+
    animation: fade-in-and-shift-right 1s;
    animation-delay: 1s;
    animation-fill-mode: forwards;
@@ -53,10 +73,10 @@
 
 @keyframes flex-change {
    0% {
-      flex: 0
+      flex: 0;
    }
    100% {
-      flex: 1
+      flex: 1;
    }
 }
 
@@ -87,6 +107,6 @@
       background: white;
    }
    100% {
-      background:rgb(43, 43, 43);
+      background: rgb(43, 43, 43);
    }
 }

@@ -1,26 +1,31 @@
-.navbar-container {
-   position: absolute;
+.navbar-container {  
+   position: fixed;
    left: 0; 
    top: 0;
    width: 5%;
    height: 100%;
-   /* display: none; */
    z-index: 999;
    opacity: 0;
-   background-color: rgb(34, 34, 34);
+   background: rgb(85, 169, 172);
    box-shadow: 2px 2px 5px rgb(0, 0, 0);
-   transition: all .5s;
+   /* background: rgb(212, 104, 104); */
+   background: rgb(250, 177, 67);
+
+   transition: width .5s, background .5s;
    font-weight: bold;
    -webkit-animation: fade-in 1s;
    font-family: 'Quicksand', sans-serif;
    animation: fade-in 1s;
-   animation-delay: 2s;
+   animation-delay: 2.5s;
    animation-fill-mode: forwards;
 }
 
 .navbar-container:hover {
-   width: 20%;
-   /* background-color: rgb(32, 32, 32); */
+   width: 17%;
+   background: rgb(250, 177, 67);
+   background: rgb(85, 169, 172);
+
+   /* background: rgb(29, 29, 29); */
 }
 
 _::-webkit-full-page-media, _:future, :root .navbar-container:hover {
@@ -36,7 +41,7 @@ _::-webkit-full-page-media, _:future, :root .navbar-container:hover {
    flex-direction: column;
    justify-content: space-between;
    align-items: center;
-   /* left: 9%; */
+   right: 5%;
    height: 30%;
    width: 100%;
    position: relative;
@@ -52,7 +57,7 @@ _::-webkit-full-page-media, _:future, :root .navbar-container:hover {
 .nav-item {
    cursor: pointer;
    position: relative;
-   font-size: 2.5vh;
+   font-size: 2vh;
    width:fit-content;   
    font-weight: bold;
    letter-spacing: 3px;
@@ -91,7 +96,7 @@ _::-webkit-full-page-media, _:future, :root .nav-item {
 }
 
 a {
-   color: rgb(160, 160, 160);
+   color: rgb(46, 46, 46);
 
 }
 
@@ -101,7 +106,7 @@ a {
 
 .not-expanded {
    position: absolute;
-   color: grey;
+   color: rgb(0, 0, 0);
    transform: translateY(-50%) rotate(180deg);
    top: 50%;
    font-size: 2vw;
@@ -112,6 +117,8 @@ a {
    opacity: 1;
    letter-spacing: .4vh;
    animation: fade-in 1s;
+   pointer-events: none;
+   z-index: 99;
 }
 
 .navbar-container:hover > .not-expanded {

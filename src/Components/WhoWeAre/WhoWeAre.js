@@ -70,19 +70,17 @@ const WhoWeAre = props => {
          </div>
 
          <div className='expanded-panel'>
+         {!activeCard && <div className='no-card-selected'>Meet the Team</div>}
+            <div className='mughsot-container'>
+               <img src={activeCard?.img} className='mugshot' />
+            </div>
             <div className='panel-content'>
                <div className='panel-name'>
-                  <div className='mughsot-container'>
-                     <img src={activeCard?.img} alt='' className='mugshot' />
-                  </div>
-                  {!activeCard && <div className='no-card-selected'>Select a Team Member.</div>}
-                  {activeCard?.name} <span> {activeCard?.responsibility}</span>{" "}
+                  {activeCard?.name}{" "}
                </div>
-
+               <div className='responsibility'>{activeCard?.responsibility}</div>
                <div className='panel-content1 content'>{activeCard?.content1}</div>
-
                <div className='panel-content2 content'>{activeCard?.content2}</div>
-
                <div className='panel-content3 content'>{activeCard?.content3}</div>
             </div>
          </div>
