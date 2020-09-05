@@ -16,10 +16,8 @@
 
 .what-we-do-container span {
    color: rgb(0, 0, 0);
-   /* font-style: italic; */
    font-weight: bold;
    font-size: 2.75vw;
-   /* text-decoration: underline; */
 }
 
 .what-we-do-intro-smaller {
@@ -27,7 +25,7 @@
    width: 89%;
    position: absolute;
    color: rgb(61, 61, 61);
-   top: 21%;
+   top: 23%;
    left: 3%;
 }
 
@@ -38,19 +36,13 @@
 .three-step-model-container {
    position: absolute;
    top: 30%;
-   left: 3%;
+   left: 1%;
    border-radius: .5vw;
    height: 50%;
-   width: 95%;
+   width: 98%;
    display: flex;
    justify-content: space-evenly;
    align-items: center;
-}
-
-.model-item {
-   border: 2px solid green;
-   height: 100%;
-   width: 100%;
 }
 
 .arrow {
@@ -59,7 +51,6 @@
    margin-right: 2%;
    font-size: 4vw;
    font-weight: bold;
-
+   display: none;
    color: rgb(61, 126, 101);
-   /* font-style: italic; */
 }

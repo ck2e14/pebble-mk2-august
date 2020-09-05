@@ -8,12 +8,9 @@
    opacity: 0;
    background: rgb(85, 169, 172);
    box-shadow: 2px 2px 5px rgb(0, 0, 0);
-   /* background: rgb(212, 104, 104); */
    background: rgb(250, 177, 67);
-
    transition: width .5s, background .5s;
    font-weight: bold;
-   -webkit-animation: fade-in 1s;
    font-family: 'Quicksand', sans-serif;
    animation: fade-in 1s;
    animation-delay: 2.5s;
@@ -22,6 +19,7 @@
 
 .navbar-container:hover {
    width: 17%;
+   left: 0; 
    background: rgb(250, 177, 67);
    background: rgb(85, 169, 172);
 
@@ -33,7 +31,7 @@ _::-webkit-full-page-media, _:future, :root .navbar-container:hover {
 }
 
 .navbar-container:hover > .navbar-flex-container {
-   display: flex;
+   display: flex; 
 }
 
 .navbar-flex-container {
@@ -41,7 +39,6 @@ _::-webkit-full-page-media, _:future, :root .navbar-container:hover {
    flex-direction: column;
    justify-content: space-between;
    align-items: center;
-   right: 5%;
    height: 30%;
    width: 100%;
    position: relative;

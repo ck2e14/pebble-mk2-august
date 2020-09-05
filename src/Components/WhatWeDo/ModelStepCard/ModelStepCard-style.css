@@ -1,7 +1,12 @@
 .model-step-card-container {
    width: 100%;
-   height: 100%;
+   height: 15%;
+   border-right: 3px solid rgb(63, 63, 63);
    position: relative;
+}
+
+.final-card {
+   border-right: none;
 }
 
 .model-step-card-front {
@@ -28,7 +33,7 @@
 
 .model-step-card-back {
    height: 100%;
-   width: 105%;
+   width: 93%;
    top: 50%;
    position: relative;
    left: 50%;

@@ -2,7 +2,7 @@
 
 .who-we-are-container {
    height: 100%;
-   width: 95%;
+   width: 92%;
    position: relative;
    left: 5%;
    display: flex;
@@ -12,7 +12,7 @@
 }
 
 .list-of-team-members {
-   flex: 0.75;
+   flex: 1;
    display: flex;
    height: 100%;
    flex-direction: column;
@@ -39,7 +39,7 @@
    width: fit-content;
    color: rgb(126, 203, 206);
    font-size: 4.5vw;
-   position: relative;
+   position: relative
 }
 
 .responsibility {
@@ -57,7 +57,7 @@
 }
 
 .panel-content1 {
-   margin-top: 5%;
+   margin-top: 2%;
 }
 
 .no-card-selected {
@@ -75,8 +75,8 @@
 .mugshot {
    position: absolute;
    height: 20vh;
-   top: -3%;
-   right: 30%;
+   top: -10%;
+   right: 10%;
    border-radius: 0.5vw;
    max-height: 12vw;
 }

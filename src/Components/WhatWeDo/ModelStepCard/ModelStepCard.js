@@ -4,11 +4,11 @@ import "./ModelStepCard-style.css";
 const ModelStepCard = props => {
    const [showFront, setShowFront] = useState(true);
 
-   const { stepName, stepContent } = props;
+   const { stepName, stepContent, isFinalCard } = props;
 
    return (
       <div
-         className='model-step-card-container'
+         className={`model-step-card-container ${isFinalCard && "final-card"}`}
          onMouseOver={() => setShowFront(false)}
          onMouseLeave={() => setShowFront(true)}>
          {showFront && <div className='stepName'>{stepName}</div>}

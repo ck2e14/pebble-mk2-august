@@ -44,13 +44,13 @@ const WhatWeDo = props => {
             <span>thrive</span> - that has delivered 100% successful outcomes.
          </div>
          <div className='three-step-model-container'>
-            <ModelStepCard stepName='Survive' stepContent={stepContent1} />
+            <ModelStepCard stepName='Survive' stepContent={stepContent1} isFinalCard={false} />
             <div className='arrow'>&#8594;</div>
 
-            <ModelStepCard stepName='Drive' stepContent={stepContent2} />
+            <ModelStepCard stepName='Drive' stepContent={stepContent2} isFinalCard={false} />
             <div className='arrow'>&#8594;</div>
 
-            <ModelStepCard stepName='Thrive' stepContent={stepContent3} />
+            <ModelStepCard stepName='Thrive' stepContent={stepContent3} isFinalCard={true} />
          </div>
       </div>
    );
