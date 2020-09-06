@@ -1,0 +1,63 @@
+.what-done-card-container {
+   width: 30%;
+   /* border: 2px solid rgb(88, 88, 88);   */
+   border-radius: .5vw;
+   margin: 10px;
+   position: relative;
+}
+
+.what-done-card-front {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   animation: fade-in 1s ease;
+   font-size: 2vw;
+   animation-delay: .1s;
+   animation-fill-mode: forwards;
+}
+
+.card-front-title {
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.what-done-card-back {
+   height: 100%;
+   position: absolute;
+   top: 15%;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   opacity: 0;
+   animation: fade-in 1s ease;
+   animation-delay: .1s;
+   animation-fill-mode: forwards;
+}
+
+.back-title {
+   font-size: 1.25vw;
+   position: relative;
+   width: 100%;
+   top: 2%;
+   /* border: 2px solid red; */
+   text-align: center;
+}
+
+.back-title span {
+   font-size: 2vw;
+   font-weight: bold;
+   color: rgb(89, 209, 209);
+}
+
+.back-content {
+   position: relative;
+   margin-top: 3%;
+   font-size: 1vw;
+   text-align: justify;
+   
+   padding: 2%;
+}

@@ -62,7 +62,7 @@ _::-webkit-full-page-media, _:future, :root .navbar-container:hover {
 .nav-item {
    cursor: pointer;
    position: relative;
-   font-size: 1vw;
+   font-size: 1.2vw;
    width:fit-content;   
    font-weight: bold;
    letter-spacing: 3px;

@@ -66,9 +66,9 @@
 }
 
 .step-content span {
-   font-size: 1.25vw !important;
+   font-size: 1.35vw !important;
    font-style: normal !important;
-   color: rgb(83, 189, 183)!important;
+   /* color: rgb(83, 189, 183)!important; */
    font-weight: bold;
    text-decoration: none !important;
 }

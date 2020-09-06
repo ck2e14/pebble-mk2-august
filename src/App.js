@@ -3,6 +3,7 @@ import Splash from "./Components/Splash/Splash";
 import NavBar from "./Components/NavBarV2/NavBarV2";
 import WhoWeAre from "./Components/WhoWeAre/WhoWeAre";
 import WhatWeDo from "./Components/WhatWeDo/WhatWeDo";
+import WhatDone from './Components/WhatWeHaveDone/WhatWeHaveDone'
 import LowerTagline from "./Components/LowerTagline/LowerTagline";
 import { HashRouter, Switch, Route } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
@@ -42,6 +43,11 @@ function App() {
 
                   <Route exact path='/what-we-do'>
                      <WhatWeDo />
+                     <LowerTagline />
+                  </Route>
+
+                  <Route exact path='/what-we-have-done'>
+                     <WhatDone />
                      <LowerTagline />
                   </Route>
                </Switch>

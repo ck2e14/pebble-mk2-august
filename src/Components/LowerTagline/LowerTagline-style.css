@@ -1,9 +1,9 @@
 .lower-tag-container {
    position: fixed;
-   bottom: 0;
+   bottom: 1%;
    width: 100vw;
    z-index: 998;;
-   background:rgb(255, 255, 255);
+   background:rgb(236, 157, 157);
    color: rgb(61, 61, 61);
    font-size: 1.5vw;
    text-align: center;
