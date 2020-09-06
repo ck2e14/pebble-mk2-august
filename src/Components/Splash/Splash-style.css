@@ -34,9 +34,6 @@
    width: 100%;
    flex: 1.25;
    z-index: 10;
-   /* border-right: 10px solid rgb(0, 255, 213);; */
-
-   /* animation: border-shift 5s infinite alternate-reverse */
 }
 
 .splash-left-section span {
@@ -55,11 +52,10 @@
    height: 100%;
    text-align: left !important;
    position: relative;
+   box-shadow: 2px 2px 20px rgb(0, 0, 0);
    width: 100%;
-   /* border-left: 10px solid rgb(142, 219, 255);  */
    flex: 1;
    background: rgb(83, 189, 183);
-   /* background: rgb(255, 189, 89); */
    z-index: 100;
 }
 

@@ -6,15 +6,16 @@
    font-size: 2vw;
    position: relative;
    color: rgb(54, 54, 54);
-   transition: all .25s;
+   transition: all .5s;
    cursor: pointer;
 }
 
 .title-card-container:hover {
    color: rgb(93, 189, 192);
+   right: 7%;
 }
 
-.title-card-container::before {
+/* .title-card-container::before {
    content: '';
    position: absolute;
    width: 100%;
@@ -24,14 +25,14 @@
    left: 0;
    background-color: rgb(151, 151, 151);
    
-   transform-origin: bottom left;
+   transform-origin: bottom center;
    transition: transform .4s ease-in-out;
 }
 
 .title-card-container:hover::before {
-   transform: scaleX(1);
+   transform: scaleX(1.01);
    transition: transform .4s ease-in-out;
-   transform-origin: bottom left;
+   transform-origin: center ;
    background-color: rgb(151, 151, 151);
 
 }
@@ -45,14 +46,14 @@
    top: 0;
    left: 0;
    background-color: rgb(151, 151, 151);
-   transform-origin: bottom right;
+   transform-origin: top center;
    transition: transform .4s ease-in-out;
 }
 
 .title-card-container:hover::after {
-   transform: scaleX(1);
+   transform: scaleX(1.01);
    transition: transform .4s ease-in-out;
-   transform-origin: bottom right;
+   transform-origin: bottom center;
    background-color: rgb(151, 151, 151);
 
-}
+} */

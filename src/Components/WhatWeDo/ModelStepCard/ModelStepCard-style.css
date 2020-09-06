@@ -5,6 +5,18 @@
    position: relative;
 }
 
+.step-1 {
+   background: rgb(216, 112, 112)
+}
+
+.step-2 {
+   background: rgb(247, 188, 120)
+}
+
+.step-3 {
+   background: rgb(146, 216, 146)
+}
+
 .final-card {
    border-right: none;
 }
@@ -19,12 +31,12 @@
 
 .stepName {
    font-size: 3vw;
-   background: rgb(54, 54, 54);
    border-radius: .5vw;
-   padding: 10%;
-   width: fit-content;
+   padding: 5%;
+   width: 40%;
    color: rgb(255, 255, 255);
    position: relative;
+   text-align: center;
    top: 50%;
    animation: fade-in 1s;
    left: 50%;
@@ -39,14 +51,14 @@
    left: 50%;
    transform: translate(-50%, -50%);
    animation: fade-in .5s;
+   font-family: 'Montserrat', sans-serif;
+
 }
 
 .step-content-container {
    height: fit-content;
    width: 100%;
-   text-align: center;
-   font-size: 1.5vw;
-   /* background: red; */
+   font-size: 1.1vw;
    position: absolute;
    top: 50%;
    left: 50%;
@@ -54,7 +66,7 @@
 }
 
 .step-content span {
-   font-size: 1.75vw !important;
+   font-size: 1.25vw !important;
    font-style: normal !important;
    color: rgb(83, 189, 183)!important;
    font-weight: bold;

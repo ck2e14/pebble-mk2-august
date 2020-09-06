@@ -1,17 +1,16 @@
 .lower-tag-container {
    position: fixed;
    bottom: 0;
-   left: 5%;
    width: 100vw;
    z-index: 998;;
    background:rgb(255, 255, 255);
    color: rgb(61, 61, 61);
-   font-size: 1.25vw;
+   font-size: 1.5vw;
    text-align: center;
    height: fit-content;
    padding: 5px;
    opacity:0;
-   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
    animation: fade-in .5s;
    animation-fill-mode: forwards;
    animation-delay: 2.5s;

@@ -7,11 +7,14 @@ const WhatWeDo = props => {
       <div className='step-content'>
          Businesses get into difficulty for a variety of reasons.
          <br />
+         <br />
          <span>
-            The first step is carry out a swift review of the business to establish whether it can be made
+            The first step is to carry out a swift review of the business to establish whether it can be made
             viable.
          </span>
-         <br /> Then we develop a recovery plan and get buy-in from the stakeholders to it.
+         <br />
+         <br />
+         Then we develop a recovery plan and get buy-in from the stakeholders to it.
       </div>
    );
 
@@ -45,13 +48,13 @@ const WhatWeDo = props => {
             <span>thrive</span> - that has delivered 100% successful outcomes.
          </div>
          <div className='three-step-model-container'>
-            <ModelStepCard stepName='Survive' stepContent={stepContent1} isFinalCard={false} />
+            <ModelStepCard stepName='Survive' stepContent={stepContent1} isFinalCard={false} stepNumber={1} />
             <div className='arrow'>&#8594;</div>
 
-            <ModelStepCard stepName='Drive' stepContent={stepContent2} isFinalCard={false} />
+            <ModelStepCard stepName='Drive' stepContent={stepContent2} isFinalCard={false} stepNumber={2} />
             <div className='arrow'>&#8594;</div>
 
-            <ModelStepCard stepName='Thrive' stepContent={stepContent3} isFinalCard={true} />
+            <ModelStepCard stepName='Thrive' stepContent={stepContent3} isFinalCard={true} stepNumber={3} />
          </div>
       </div>
    );
