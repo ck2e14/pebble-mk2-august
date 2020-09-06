@@ -126,3 +126,28 @@
       border-right: 10px solid rgb(0, 255, 213);;
    }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   .splash-container {
+      height: 100vh;
+   }
+   .splash-left-section {
+      flex: 1.15
+   }
+   .splash-left-section span {
+      bottom: 50%;
+      font-size: 40px;
+   }
+   .splash-right-section span {
+      font-size: 40px;
+      bottom: 45%;
+   }
+   .tagline {
+      font-size: 19px;
+      z-index: 999;
+      left: 0%;
+      bottom: 20%;
+      text-align: right;
+      width: 90%;
+   }
+}

@@ -82,3 +82,50 @@
    right: 4%;
    border-radius: 0.5vw;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   .who-we-are-container {
+      /* border: 2px solid red; */
+      flex-direction: column;
+   }
+   .no-card-selected {
+      /* position: relative; */
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 40px;
+      width: fit-content;
+   }
+   .list-of-team-members {
+      align-items: center;
+      flex: .65;
+      border: none;
+      /* border: 2px solid rgb(9, 255, 0); */
+   }
+   .expanded-panel {
+      flex: 1.5;
+      /* border: 2px solid black; */
+      top: 0;
+   }
+   .panel-content {
+      width: 90vw;
+      position: relative;
+      margin-top: 0%;
+      left: -2%;
+      padding-left: 0;
+      /* border: 2px solid orange; */
+   }
+   .content {
+      width: 65%;
+      font-size: 12px;
+   }
+   .mugshot {
+      height: 30vw;
+      right: 0%;
+   }
+   .panel-name {
+      font-size: 25px
+   }
+   .responsibility {
+      font-size: 12px
+   }
+}
