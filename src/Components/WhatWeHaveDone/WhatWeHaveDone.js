@@ -80,7 +80,8 @@ const WhatWeHaveDone = props => {
       title: "Duck & Rice",
       backTitle: (
          <div className='back-title'>
-            The commercialisation of<br/> <span>Duck</span> & <span>Rice</span>
+            The commercialisation of
+            <br /> <span>Duck</span> & <span>Rice</span>
          </div>
       ),
       backContent: (

@@ -9,7 +9,6 @@
    background: rgb(250, 177, 67);
    background: rgb(255, 212, 92);
    background: rgba(83, 189, 184, 0);
-
    transition: width .5s, background .5s;
    font-weight: bold;
    font-family: 'Quicksand', sans-serif;
@@ -90,14 +89,14 @@ _::-webkit-full-page-media, _:future, :root .nav-item {
    left: 0;
    background-color: rgb(139, 139, 139);
    transform-origin: bottom center;
-   transition: transform .25s ease-in-out;
+   transition: transform .5s ease-in-out;
 }
 
 .nav-item:hover::before {
-   transform: scaleX(1);
+   transform: scaleX(.5);
    transition: transform .25s ease-in-out;
    transform-origin: bottom center;
-   background-color: rgb(139, 139, 139);
+   background-color: rgb(43, 43, 43);
 }
 
 a {
@@ -106,7 +105,7 @@ a {
 }
 
 .nav-item:hover {
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
 }
 
 .not-expanded {

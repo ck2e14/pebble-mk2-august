@@ -62,8 +62,9 @@
 }
 
 .no-card-selected {
-   color: rgb(255, 255, 255);
+   color: rgb(56, 56, 56);
    background-color: rgb(41, 41, 41);
+   background: rgb(255, 212, 92);
    box-shadow:  2px 2px 15px rgb(53, 53, 53);
    position: absolute;
    top: 35%;

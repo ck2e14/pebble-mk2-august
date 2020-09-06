@@ -1,17 +1,22 @@
 .lower-tag-container {
    position: fixed;
-   bottom: 1%;
+   bottom: 0%;
    width: 100vw;
    z-index: 998;;
-   background:rgb(236, 157, 157);
-   color: rgb(61, 61, 61);
+   background:rgba(94, 199, 190, 0);
+   color: rgb(59, 59, 59);
    font-size: 1.5vw;
    text-align: center;
-   height: fit-content;
+   height: 4vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
    padding: 5px;
    opacity:0;
    font-family: 'Montserrat', sans-serif;
    animation: fade-in .5s;
    animation-fill-mode: forwards;
-   animation-delay: 2.5s;
+   transition: all .5s ease-out;
+   /* animation-delay: 2.5s; */
 }

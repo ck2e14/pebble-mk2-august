@@ -16,8 +16,9 @@
 
 .what-we-do-container span {
    color: rgb(49, 49, 49);
+   /* color: rgb(255, 222, 130); */
    font-weight: bold;
-   font-size: 2.75vw;
+   font-size: 2.9vw;
 }
 
 .what-we-do-intro-smaller {
