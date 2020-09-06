@@ -20,3 +20,9 @@
    transition: all .5s ease-out;
    /* animation-delay: 2.5s; */
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   .lower-tag-container {
+      position: absolute;
+   }
+ }

@@ -14,6 +14,11 @@
    font-size: 2.2vw;
 }
 
+.what-we-do-intro-larger span {
+   color: rgb(90, 204, 204) !important;
+
+}
+
 .what-we-do-container span {
    color: rgb(49, 49, 49);
    /* color: rgb(255, 222, 130); */
@@ -31,6 +36,7 @@
 }
 
 .what-we-do-intro-smaller span {
+   color: rgb(90, 204, 204) !important;
    font-size: 2.1vw
 }
 

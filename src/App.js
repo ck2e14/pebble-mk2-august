@@ -5,6 +5,7 @@ import WhoWeAre from "./Components/WhoWeAre/WhoWeAre";
 import WhatWeDo from "./Components/WhatWeDo/WhatWeDo";
 import WhatDone from './Components/WhatWeHaveDone/WhatWeHaveDone'
 import LowerTagline from "./Components/LowerTagline/LowerTagline";
+import Contact from './Components/Contact/Contact'
 import { HashRouter, Switch, Route } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 import "./App.css";
@@ -48,6 +49,11 @@ function App() {
 
                   <Route exact path='/what-we-have-done'>
                      <WhatDone />
+                     <LowerTagline />
+                  </Route>
+
+                  <Route exact path='/contact'>
+                     <Contact />
                      <LowerTagline />
                   </Route>
                </Switch>

@@ -15,7 +15,6 @@
    font-size: 1.75vw;
    position: absolute;
    bottom: 40%;
-   /* font-style: italic; */
    color: rgb(0, 0, 0);
    right: 2%;
    animation: fade-in 1s;
@@ -27,8 +26,9 @@
 }
 
 .splash-left-section {
-   background: rgb(255, 255, 255);
+   background: rgb(255, 255, 255);;
    color: rgb(66, 66, 66);
+   color: rgb(83, 189, 183);;
    height: 100%;
    position: relative;
    width: 100%;

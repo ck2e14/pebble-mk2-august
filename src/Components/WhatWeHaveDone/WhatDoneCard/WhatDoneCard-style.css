@@ -19,11 +19,13 @@
 .card-front-title {
    position: absolute;
    top: 50%;
-   width: 100%;;
+   width: 85%;;
    text-align: center;
    font-size: 2.25vw;
-   border-radius: .5vw;
-   color: rgb(63, 63, 63);
+   border-radius: .25vw;
+   color: rgb(255, 255, 255);
+   background: rgb(83, 159, 189);
+
    left: 50%;
    transform: translate(-50%, -50%);
 }
