@@ -14,24 +14,27 @@
 .list-of-team-members {
    flex: 1;
    display: flex;
-   height: 100%;
+   height:25%;
    flex-direction: column;
    justify-content: center;
    align-items: flex-end;
+   border-right: 5px solid rgb(122, 122, 122);
    width: 100%;
 }
 
 .expanded-panel {
-   flex: 2;
-   border-left: 5px solid rgb(122, 122, 122);
+   flex: 2.5;
+   /* border-left: 5px solid rgb(122, 122, 122); */
    height: 26vw;
    position: relative;
-   top: 0;
+   top: -2%;
+   animation: fade-in 2s;
 }
 
 .panel-content {
    padding-left: 2%;
    position: absolute;
+   width: 65%;
    top: 0%;
 }
 
@@ -61,11 +64,11 @@
 }
 
 .no-card-selected {
-   color: rgb(163, 163, 163);
+   color: rgb(255, 255, 255);
    background-color: rgb(73, 73, 73);
    box-shadow:  2px 2px 15px rgb(53, 53, 53);
    position: absolute;
-   top: 30%;
+   top: 35%;
    padding: 2%;
    left: 10%;
    font-size: 4vw;
@@ -74,9 +77,9 @@
 
 .mugshot {
    position: absolute;
-   height: 20vh;
-   top: -10%;
-   right: 10%;
+   height: 17vw;
+   top: 15%;
+   right: 4%;
    border-radius: 0.5vw;
-   max-height: 12vw;
+   /* max-height: 12vw; */
 }

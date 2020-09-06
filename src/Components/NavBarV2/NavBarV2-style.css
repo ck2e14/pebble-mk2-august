@@ -6,9 +6,11 @@
    height: 100%;
    z-index: 999;
    opacity: 0;
-   background: rgb(85, 169, 172);
-   box-shadow: 2px 2px 5px rgb(0, 0, 0);
+   /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0); */
    background: rgb(250, 177, 67);
+   background: rgb(255, 212, 92);
+   background: rgba(83, 189, 184, 0);
+
    transition: width .5s, background .5s;
    font-weight: bold;
    font-family: 'Quicksand', sans-serif;
@@ -17,13 +19,16 @@
    animation-fill-mode: forwards;
 }
 
-.navbar-container:hover {
-   width: 17%;
-   left: 0; 
-   background: rgb(250, 177, 67);
-   background: rgb(85, 169, 172);
+.splash-nav-color {
+   background: rgba(83, 189, 184, 0);
+   box-shadow: none
+}
 
-   /* background: rgb(29, 29, 29); */
+.splash-nav-color .not-expanded {
+   color: rgb(80, 80, 80) !important;
+   /* text-decoration: underline; */
+   top: 40%;
+   /* letter-spacing: -.1vw; */
 }
 
 _::-webkit-full-page-media, _:future, :root .navbar-container:hover {
@@ -33,6 +38,14 @@ _::-webkit-full-page-media, _:future, :root .navbar-container:hover {
 .navbar-container:hover > .navbar-flex-container {
    display: flex; 
 }
+
+.navbar-container:hover {
+   width: 17%;
+   left: 0; 
+   background: rgb(250, 177, 67);
+   /* background: rgb(83, 189, 183); */
+}
+
 
 .navbar-flex-container {
    display: none;
@@ -80,7 +93,7 @@ _::-webkit-full-page-media, _:future, :root .nav-item {
    height: 2px;
    bottom: -5px;
    left: 0;
-   background-color: rgb(78, 78, 78);
+   background-color: rgb(80, 80, 80);
    transform-origin: bottom center;
    transition: transform .25s ease-in-out;
 }
@@ -89,7 +102,8 @@ _::-webkit-full-page-media, _:future, :root .nav-item {
    transform: scaleX(1);
    transition: transform .25s ease-in-out;
    transform-origin: bottom center;
-   background-color: rgb(78, 78, 78);
+   background-color: rgb(80, 80, 80);
+
 }
 
 a {

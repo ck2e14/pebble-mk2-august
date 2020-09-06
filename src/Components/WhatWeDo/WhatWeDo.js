@@ -27,6 +27,7 @@ const WhatWeDo = props => {
       <div className='step-content'>
          <span>Drive a cash-positive performance </span> and <span>identify future growth levers</span>.
          <br />
+         <br />
          The final stage is to deliver an exit for the stakeholders.
       </div>
    );

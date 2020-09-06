@@ -1,6 +1,6 @@
 .model-step-card-container {
    width: 100%;
-   height: 15%;
+   height: 25%;
    border-right: 3px solid rgb(63, 63, 63);
    position: relative;
 }
@@ -21,9 +21,9 @@
    font-size: 3vw;
    background: rgb(54, 54, 54);
    border-radius: .5vw;
-   padding: 5%;
+   padding: 10%;
    width: fit-content;
-   color: rgb(206, 206, 206);
+   color: rgb(255, 255, 255);
    position: relative;
    top: 50%;
    animation: fade-in 1s;
@@ -56,7 +56,7 @@
 .step-content span {
    font-size: 1.75vw !important;
    font-style: normal !important;
-   color: rgb(56, 168, 172) !important;
+   color: rgb(83, 189, 183)!important;
    font-weight: bold;
    text-decoration: none !important;
 }

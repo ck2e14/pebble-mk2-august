@@ -5,6 +5,7 @@ import karenPic from "../../Assets/Media/Karen.jpg";
 import richardPic from "../../Assets/Media/richard.jpg";
 import tedPic from "../../Assets/Media/USETHIS_Ted.jpg";
 import keithPic from "../../Assets/Media/USETHIS_keith.jpg";
+// import { CSSTransition } from "react-transition-group";
 
 const WhoWeAre = props => {
    const [activeCard, setActiveCard] = useState(null);
@@ -70,14 +71,12 @@ const WhoWeAre = props => {
          </div>
 
          <div className='expanded-panel'>
-         {!activeCard && <div className='no-card-selected'>Meet the Team</div>}
+            {!activeCard && <div className='no-card-selected'>Meet the Team!</div>}
             <div className='mughsot-container'>
-               <img src={activeCard?.img} className='mugshot' />
+               <img src={activeCard?.img} alt="" className='mugshot' />
             </div>
             <div className='panel-content'>
-               <div className='panel-name'>
-                  {activeCard?.name}{" "}
-               </div>
+               <div className='panel-name'>{activeCard?.name} </div>
                <div className='responsibility'>{activeCard?.responsibility}</div>
                <div className='panel-content1 content'>{activeCard?.content1}</div>
                <div className='panel-content2 content'>{activeCard?.content2}</div>
