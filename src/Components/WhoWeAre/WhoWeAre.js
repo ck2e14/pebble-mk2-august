@@ -71,7 +71,7 @@ const WhoWeAre = props => {
          </div>
 
          <div className='expanded-panel'>
-            {!activeCard && <div className='no-card-selected'>Meet the Team!</div>}
+            {!activeCard && <div className='no-card-selected'>Meet Our Leadership Team</div>}
             <div className='mughsot-container'>
                <img src={activeCard?.img} alt="" className='mugshot' />
             </div>

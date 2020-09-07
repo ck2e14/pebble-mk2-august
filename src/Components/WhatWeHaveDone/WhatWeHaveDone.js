@@ -1,5 +1,7 @@
 import React from "react";
 import WhatDoneCard from "./WhatDoneCard/WhatDoneCard";
+import arrow from "../../Assets/Media/arrow.png";
+import { isMobile } from "react-device-detect";
 import "./WhatWeHaveDone-style.css";
 
 const WhatWeHaveDone = props => {
@@ -81,7 +83,7 @@ const WhatWeHaveDone = props => {
       backTitle: (
          <div className='back-title'>
             The commercialisation of
-            <br /> <span>Duck</span> & <span>Rice</span>
+            <br /> <span>Duck & Rice</span>
          </div>
       ),
       backContent: (
@@ -103,12 +105,15 @@ const WhatWeHaveDone = props => {
             </div>
             <div className='what-done-intro-smaller'>Here are some of our success stories.</div>
          </div>
-         <div className='what-done-cards-flex-container'>
-            <WhatDoneCard success={millHouse} />
-            <WhatDoneCard success={angloIrish} />
-            <WhatDoneCard success={barracuda} />
-            <WhatDoneCard success={dominion} />
-            <WhatDoneCard success={duckRice} />
+         <div className='what-done-cards'>
+            <div className='what-done-cards-flex-container'>
+               <WhatDoneCard success={millHouse} />
+               <WhatDoneCard success={angloIrish} />
+               <WhatDoneCard success={barracuda} />
+               <WhatDoneCard success={dominion} />
+               <WhatDoneCard success={duckRice} />
+            </div>
+            {isMobile && <img src={arrow} alt='' className='scroll-arrow' />}
          </div>
       </div>
    );

@@ -12,6 +12,13 @@
    width: 80%;
 }
 
+.what-done-cards {
+   position: absolute;
+   width: 95%;
+   top: 23%;
+   height: 70%
+}
+
 .what-done-intro-larger {
    font-size: 2vw;
    width: 95%;
@@ -30,7 +37,7 @@
 }
 
 .what-done-cards-flex-container {
-   position: relative;
+   position: absolute;
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -38,10 +45,51 @@
    flex-wrap: wrap;
    border-top: 2px solid grey;
    border-bottom: 2px solid grey;
-   top: 26%;
+   /* top: 26%; */
    left: 0%;
-   width: 97%;
-   height: 60%;
+   width: 100%;
+   height: 100%;
 }
 
+.scroll-arrow {
+   width: 10%;
+   filter: contrast(.3);
+   position: fixed;
+   bottom: 12%;
+   right: 5%;
+}
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+   .what-done-intro-container {
+      top: 12%;
+      width: 100%;
+   }
+   .what-done-intro-larger {
+      font-size: 20px;
+      width: 100%;
+   }
+   .what-done-intro-larger span {
+      font-size: 24px
+   }
+   .what-done-intro-smaller {
+      font-size: 18px;
+      margin-top: 5%;
+   }
+   .what-done-cards-flex-container {
+      flex-wrap: nowrap;
+      overflow-y:hidden;
+      border: none;
+      overflow-x: hidden;
+      top: 3%;
+      width: fit-content;
+      height: 90%;
+   }
+   .what-done-cards {
+      position: relative;
+      overflow-x: scroll;
+      overflow-y:visible;
+      top: 30%;
+      height: 60%;
+
+   }
+}

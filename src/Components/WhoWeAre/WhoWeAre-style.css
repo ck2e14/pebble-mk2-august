@@ -85,25 +85,27 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
    .who-we-are-container {
-      /* border: 2px solid red; */
       flex-direction: column;
    }
    .no-card-selected {
-      /* position: relative; */
       left: 50%;
       transform: translateX(-50%);
-      font-size: 40px;
+      font-size: 45px;
+      background: rgb(106, 192, 207);
+      background: rgb(123, 175, 196);  
+      top: 10%;
       width: fit-content;
+      text-align: center;
    }
    .list-of-team-members {
       align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 5%;
       flex: .65;
       border: none;
-      /* border: 2px solid rgb(9, 255, 0); */
    }
    .expanded-panel {
-      flex: 1.5;
-      /* border: 2px solid black; */
+      flex: 1.2;
       top: 0;
    }
    .panel-content {
@@ -112,7 +114,6 @@
       margin-top: 0%;
       left: -2%;
       padding-left: 0;
-      /* border: 2px solid orange; */
    }
    .content {
       width: 65%;

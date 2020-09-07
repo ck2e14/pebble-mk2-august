@@ -47,6 +47,7 @@
    height: 100%;
    width: 93%;
    top: 50%;
+   line-height: 1.75;
    position: relative;
    text-align: center;
    left: 50%;
@@ -69,7 +70,27 @@
 .step-content span {
    font-size: 1.35vw !important;
    font-style: normal !important;
-   /* color: rgb(83, 189, 183)!important; */
+   color: rgb(135, 231, 231) !important;
    font-weight: bold;
    text-decoration: none !important;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   .stepName {
+      font-size: 25px;
+      border-radius: 5px;
+   }
+   .step-content-container {
+      font-size: 15px;
+      line-height: 1.25;
+   }
+   .step-content span {
+      font-size: 14px !important;
+   }
+   .model-step-card-container {
+      border: none !important;
+   }
+   .model-step-card-back {
+      line-height: 1;
+   }
 }

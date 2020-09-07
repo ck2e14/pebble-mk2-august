@@ -12,6 +12,7 @@ const MobileNavBar = props => {
    return (
       <>
          <div className='mobile-nav-container'>
+            <div className="pebble-logo">Pebble&nbsp;</div>
             {!expandNavBar && <BurgerBtn handleClick={handleBtnClick} paintBtn={"enterMenu"} />}
             {expandNavBar && <BurgerBtn handleClick={handleBtnClick} paintBtn={"exitMenu"} />}
 
@@ -36,7 +37,7 @@ const MobileNavBar = props => {
                         to='/what-we-have-done'
                         className='mobile-nav-expanded-flex-item'
                         onClick={handleBtnClick}>
-                        <div className='mobile-nav-expanded-flex-item'>What We Have Done</div>
+                        <div className='mobile-nav-expanded-flex-item'>What We've Done</div>
                      </Link>
 
                      <Link to='/contact' className='mobile-nav-expanded-flex-item' onClick={handleBtnClick}>

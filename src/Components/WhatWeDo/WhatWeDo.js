@@ -7,12 +7,10 @@ const WhatWeDo = props => {
       <div className='step-content'>
          Businesses get into difficulty for a variety of reasons.
          <br />
-         <br />
          <span>
             The first step is to carry out a swift review of the business to establish whether it can be made
             viable.
          </span>
-         <br />
          <br />
          Then we develop a recovery plan and get buy-in from the stakeholders to it.
       </div>
@@ -29,7 +27,6 @@ const WhatWeDo = props => {
    const stepContent3 = (
       <div className='step-content'>
          <span>Drive a cash-positive performance </span> and <span>identify future growth levers</span>.
-         <br />
          <br />
          The final stage is to deliver an exit for the stakeholders.
       </div>

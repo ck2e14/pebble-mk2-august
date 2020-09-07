@@ -64,12 +64,16 @@
    .title-card-container {
       right: 3%;
       font-size: 20px;
+      padding: 5px;
       user-select: none;
+      width: 53%;;
+      /* border: 2px solid red; */
+      font-family: 'montserrat';
+      text-align: center;
    }
    .title-card-container:hover {
       right: 3%;
       background: rgb(106, 192, 207);
-      padding: 5px;
       color: white;
       border-radius: 5px;
    }

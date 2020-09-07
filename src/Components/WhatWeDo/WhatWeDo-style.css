@@ -21,7 +21,6 @@
 
 .what-we-do-container span {
    color: rgb(49, 49, 49);
-   /* color: rgb(255, 222, 130); */
    font-weight: bold;
    font-size: 2.9vw;
 }
@@ -31,7 +30,7 @@
    width: 89%;
    position: absolute;
    color: rgb(61, 61, 61);
-   top: 23%;
+   top: 26%;
    left: 3%;
 }
 
@@ -60,4 +59,29 @@
    font-weight: bold;
    display: none;
    color: rgb(61, 126, 101);
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   .three-step-model-container {
+      flex-direction: column;
+      justify-content: space-between;
+      width: 92%;
+      top:35%;
+   }
+   .what-we-do-intro-larger {
+      font-size: 18px;
+      top: 9%;
+      width: 90%;
+   }
+   .what-we-do-intro-larger span {
+      font-size: 23px;
+   }
+   .what-we-do-intro-smaller {
+      font-size: 15px;
+      top: 19%;
+   }
+   .what-we-do-intro-smaller span {
+      font-size: 18px;
+   }
+   
 }
