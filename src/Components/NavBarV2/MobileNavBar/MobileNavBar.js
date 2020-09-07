@@ -7,12 +7,17 @@ import { Link } from "react-router-dom";
 const MobileNavBar = props => {
    const [expandNavBar, setExpandNavBar] = useState(false);
 
-   const handleBtnClick = () => setExpandNavBar(!expandNavBar);
+   const handleBtnClick = () => {
+      setExpandNavBar(!expandNavBar);
+      toggleIsSplash(false)
+   }
+
+   const { isSplashPage, toggleIsSplash } = props
 
    return (
       <>
          <div className='mobile-nav-container'>
-            <div className="pebble-logo">Pebble&nbsp;</div>
+            <div className={`pebble-logo ${isSplashPage && 'splash-nav'}`}>Pebble&nbsp;</div>
             {!expandNavBar && <BurgerBtn handleClick={handleBtnClick} paintBtn={"enterMenu"} />}
             {expandNavBar && <BurgerBtn handleClick={handleBtnClick} paintBtn={"exitMenu"} />}
 

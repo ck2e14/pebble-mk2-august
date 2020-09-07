@@ -8,7 +8,7 @@ const NavBar = props => {
    const { toggleShaderOn, toggleShaderOff, isSplashPage, toggleIsSplash } = props;
 
    if (isMobile) {
-      return <MobileNavBar />;
+      return <MobileNavBar isSplashPage={isSplashPage} toggleIsSplash={toggleIsSplash} />;
    } else {
       return (
          <div
