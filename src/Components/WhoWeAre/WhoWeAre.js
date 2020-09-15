@@ -73,7 +73,7 @@ const WhoWeAre = props => {
          <div className='expanded-panel'>
             {!activeCard && <div className='no-card-selected'>Meet Our Leadership Team</div>}
             <div className='mughsot-container'>
-               <img src={activeCard?.img} alt="" className='mugshot' />
+               <img src={activeCard?.img} alt='' className='mugshot' />
             </div>
             <div className='panel-content'>
                <div className='panel-name'>{activeCard?.name} </div>

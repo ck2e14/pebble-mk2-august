@@ -64,7 +64,8 @@
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
+  font-family: 'Playfair Display', serif;
+  transform: translate(-50%, -50%);
 }
 
 .step-content span {
@@ -73,6 +74,7 @@
    color: rgb(135, 231, 231) !important;
    font-weight: bold;
    text-decoration: none !important;
+
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -81,11 +83,11 @@
       border-radius: 5px;
    }
    .step-content-container {
-      font-size: 15px;
+      font-size: 3.5vw;
       line-height: 1.25;
    }
    .step-content span {
-      font-size: 14px !important;
+      font-size: 4vw !important;
    }
    .model-step-card-container {
       border: none !important;

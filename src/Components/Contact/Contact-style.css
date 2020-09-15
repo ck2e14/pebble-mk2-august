@@ -45,15 +45,17 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
    .contact-container {
       padding: 2%;
-      top: 40%;
+      top: 45%;
+      transform: translate(-50%, -50%);
       border-radius: 6px;
       width: 90%;
+      height: 40%;
    }
    .contact-contents {
-      font-size: 25px;
+      font-size: 5vw;
       width: 95%;
    }
    .contact-contents span {
-      font-size: 15px;
+      font-size: 3.5vw;
    }
 }

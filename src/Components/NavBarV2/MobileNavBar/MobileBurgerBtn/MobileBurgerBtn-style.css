@@ -5,7 +5,6 @@
    height: 3%;
    padding: 14%;
    width: 30%;
-   /* background: rgb(136, 136, 136); */
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -23,11 +22,10 @@
 
 .exit-btn-container {
    position: absolute;
-   left: 20%;
-   top: -1%;
+   left: 23%;
+   top: -2.5%;
    height: fit-content;
-   /* background: rgb(136, 136, 136); */
-   font-size: 90px;
+   font-size: 18vw;
    color: rgb(255, 255, 255);
    text-shadow: 1px 1px 15px rgb(255, 255, 255);
    width: 15vw;

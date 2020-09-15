@@ -62,26 +62,33 @@
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   .what-we-do-container {
+      left: 5%;
+   }
    .three-step-model-container {
       flex-direction: column;
       justify-content: space-between;
       width: 92%;
-      top:35%;
+      top: 35%;
    }
    .what-we-do-intro-larger {
-      font-size: 18px;
-      top: 9%;
-      width: 90%;
+      font-size: 4.5vw;
+      top: 8%;
+      width: 95%;
+      text-align: center;
    }
    .what-we-do-intro-larger span {
-      font-size: 23px;
+      font-size: 5.25vw;
    }
    .what-we-do-intro-smaller {
-      font-size: 15px;
-      top: 19%;
+      font-size: 3.5vw;
+      text-align: center;
+      top: 20%;
+      border-bottom: 2px solid grey;
+      padding-bottom: 5%;
    }
    .what-we-do-intro-smaller span {
-      font-size: 18px;
+      font-size: 4vw;
    }
    
 }
