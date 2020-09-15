@@ -8,6 +8,7 @@ import LowerTagline from "./Components/LowerTagline/LowerTagline";
 import Contact from './Components/Contact/Contact'
 import { HashRouter, Switch, Route } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
+import ScreenOrientationReact from "screen-orientation-react";
 import "./App.css";
 
 function App() {
@@ -17,9 +18,20 @@ function App() {
    const toggleShaderOn = () => setShader(true);
    const toggleShaderOff = () => setShader(false);
 
+   const landscapeOptions = {
+      color: "#fff",
+      bgColor: "#8bdac6",
+      animation: true,
+      fontSize: 3,
+      iconColor: "#464646",
+      message: "This % zoom/screen orientation is not supported. Please reduce zoom % or turn to portrait.",
+      minHeight: 350
+   };
+
    return (
       <>
          <HashRouter>
+            <ScreenOrientationReact options={landscapeOptions}/>
             <div className='App-container'>
                <CSSTransition in={shader} timeout={500} classNames='my-node' unmountOnExit>
                   <div className='shader'></div>
