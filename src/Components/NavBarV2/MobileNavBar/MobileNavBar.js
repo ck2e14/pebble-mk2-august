@@ -9,17 +9,21 @@ const MobileNavBar = props => {
 
    const handleBtnClick = () => {
       setExpandNavBar(!expandNavBar);
-      toggleIsSplash(false)
+      toggleIsSplash(false);
+   };
+
+   const handleBurgerClick = () => {
+      setExpandNavBar(!expandNavBar)
    }
 
-   const { isSplashPage, toggleIsSplash } = props
+   const { isSplashPage, toggleIsSplash } = props;
 
    return (
       <>
          <div className='mobile-nav-container'>
-            <div className={`pebble-logo ${isSplashPage && 'splash-nav'}`}>Pebble&nbsp;</div>
-            {!expandNavBar && <BurgerBtn handleClick={handleBtnClick} paintBtn={"enterMenu"} />}
-            {expandNavBar && <BurgerBtn handleClick={handleBtnClick} paintBtn={"exitMenu"} />}
+            { !isSplashPage && <div className={`pebble-logo ${isSplashPage && "splash-nav"}`}>Pebble&nbsp;</div> }
+            {!expandNavBar && <BurgerBtn handleClick={handleBurgerClick} paintBtn={"enterMenu"} />}
+            {expandNavBar && <BurgerBtn handleClick={handleBurgerClick} paintBtn={"exitMenu"} />}
 
             <CSSTransition in={expandNavBar} timeout={300} classNames={"my-node"} unmountOnExit>
                <div className='mobile-nav-expanded'>

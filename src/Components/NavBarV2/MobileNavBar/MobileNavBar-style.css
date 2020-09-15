@@ -16,7 +16,10 @@
 .splash-nav {
    background: none !important;
    box-shadow: none !important;
+   display: none !important;
+   opacity: 0;
 }
+
 
 .mobile-nav-expanded {
    position: fixed;
@@ -41,7 +44,7 @@
 }
 
 .mobile-nav-expanded-flex-item {
-   color: rgb(230, 230, 230);
+   color: rgb(255, 255, 255);
    font-size: 7.5vw;
    text-shadow: 0px 0px 30px rgba(0, 255, 255, 0);
    text-decoration: none;
