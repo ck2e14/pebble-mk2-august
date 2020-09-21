@@ -42,7 +42,7 @@ const WhatWeDo = props => {
          </div>
          <div className='what-we-do-intro-smaller'>
             We have a proven three-stage model - <span>survive</span>, <span>drive</span> &{" "}
-            <span>thrive</span> - that has delivered 100% successful outcomes.
+            <span>thrive</span> - that has delivered 100%-successful outcomes.
          </div>
          <div className='three-step-model-container'>
             <ModelStepCard stepName='Survive' stepContent={stepContent1} isFinalCard={false} stepNumber={1} />
